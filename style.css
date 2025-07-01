@@ -155,3 +155,25 @@ section span img {
     align-items: center;
     justify-content: flex-start;
 }
+
+@media screen and (max-width: 1300px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .l1{
+        font-size: 8px;
+    }
+
+    .l2{
+        font-size: 5px;
+    }
+}
+
+.g-btn a{
+    text-decoration: none;
+    color: white;
+}
